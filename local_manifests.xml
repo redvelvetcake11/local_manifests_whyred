@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device-specific files for whyred -->
+  <project name="SuperiorOS-Devices/device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="fourteen" />
+
+  <!-- Vendor files for whyred -->
+  <project name="SuperiorOS-Devices/vendor_xiaomi_whyred" path="vendor/xiaomi/whyred" remote="github" revision="fourteen" />
+  
+  <!-- Kernel source (Panda) -->
+  <project name="Pzqqt/android_kernel_xiaomi_whyred-4.19" path="kernel/xiaomi/whyred" remote="github" revision="panda" />
+</manifest>
