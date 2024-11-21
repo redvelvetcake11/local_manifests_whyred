@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Define the GitHub remote -->
+  <remote name="github" fetch="https://github.com/" />
+
   <!-- Device-specific files for whyred -->
   <project name="SuperiorOS-Devices/device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="fourteen" />
 
